@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PlainDSP</title>
+  <style>
+    @font-face {
+      font-family: Aeroportal;
+      src: url('Aeroportal.otf') format('opentype');
+    }
+
+    body {
+      background-color: #093c76;
+      background-image: url('hl2-bg-lg.jpg');
+      background-position-x: 100%;
+      background-repeat: no-repeat;
+      font-family: Aeroportal, Arial, sans-serif;
+      color: aliceblue;
+    }
+
+    @media screen and (max-width: 1280px) and (min-width: 961px) {
+      body {
+        background-image: url('hl2-bg-md.jpg');
+      }
+    }
+
+    @media screen and (max-width: 960px) and (min-width: 601px) {
+      body {
+        background-image: url('hl2-bg-sm.jpg');
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        background-image: url('hl2-bg-xs.jpg');
+      }
+    }
+
+    .root {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .block {
+      max-width: 75vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #093c76;
+      border-radius: 0.25rem;
+      padding: 1.5em;
+      border: 0.25em solid aliceblue;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 1.5em;
+      padding: 0.5em 0 0.25em;
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .link {
+      color: aliceblue;
+      text-decoration: none;
+      background-color: transparent;
+      -webkit-text-decoration-skip: objects;
+    }
+
+    .link:hover {
+      color: gray;
+      text-decoration: underline;
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    .list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .list > li {
+      padding: 0.25em 0;
+      font-size: 1.5em;
+    }
+
+    .btn {
+      display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      user-select: none;
+      border: 1px solid transparent;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: 0.25rem;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      cursor: pointer;
+      background-color: #21589c;
+    }
+
+    .btn:hover,
+    .btn:focus {
+      text-decoration: none;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(#093c76, 0.25);
+    }
+
+    .btn:hover {
+      color: #093c76;
+      background: #093c76 linear-gradient(180deg, #093c76, #093c76) repeat-x;
+      border-color: aliceblue;
+    }
+
+    .logo {
+      font-size: 2.5em;
+      padding: 0.5em;
+      font-weight: bold;
+    }
+
+    .logo:hover {
+      color: aliceblue;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body class="root">
+  <div class="block">
+    <ul class="list">
+      <li>
+        <h1 class="title">
+          Sorry, the PlainDSP site is now closed
+        </h1>
+        <p>
+          For support, please contact us at
+          <a href="mailto:support@hl2.com" class="link">
+            support@hl2.com
+          </a>
+        </p>
+      </li>
+      <li>
+        <h2 class="title">
+          Let's build your next project together!
+        </h2>
+        <p>
+          Please contact
+          <a href="mailto:sales@hl2.com" class="link">
+            sales@hl2.com
+          </a>
+          for details, or click below:
+        </p>
+      </li>
+    </ul>
+    <a href="http://hl2.com" target="_blank" class="btn link logo">
+      HL2
+    </a>
+  </div>
+</body>
+</html>
