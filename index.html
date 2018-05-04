@@ -1,17 +1,17 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>PlainDSP</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous" />
     <style>
-        .jumbotron {
-          height: 100vh;
+        html, body {
+          height: 100%;
           background-color: #093c76;
         }
 
         @media (min-width: 992px) {
-          .jumbotron {
+          body {
             background-image: url('background.svg');
             background-repeat: no-repeat;
             background-position: right top;
@@ -19,46 +19,31 @@
         }
 
         @media (max-width: 767.98px) {
-          .jumbotron .display-4 {
-            font-size: 3rem;
+          .display-4 {
+            font-size: 2rem;
           }
         }
     </style>
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid mb-0">
-      <div class="container-fluid text-white text-center">
-        <div class="row">
-          <div class="col-12 col-lg-7">
-            <a href="http://hl2.com" target="_blank">
+    <div class="container-fluid text-white text-center h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col">
+          <div>
               <img src="hl2.svg" width="150" class="img-fluid m-3" />
-            </a>
-            <h1 class="display-4">
-                Sorry, the PlainDSP site is now closed
-            </h1>
-            <p class="lead">
-                For support, please contact us at
-                <a href="mailto:support@hl2.com">
-                  support@hl2.com
-                </a>
-            </p>
+              <h1 class="display-4">Sorry, the PlainDSP site is now closed</h1>
+              <p class="lead">
+                For support, please contact us at <a href="mailto:support@hl2.com">support@hl2.com</a>
+              </p>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-lg-7">
-            <h1 class="display-4">
-                Let's build your next project together!
-            </h1>
+          <div class="mt-5">
+            <h1 class="display-4">Let's build your next project together!</h1>
             <p class="lead">
-                Please contact
-                <a href="mailto:sales@hl2.com">
-                  sales@hl2.com
-                </a>
-                for details, or click on <a href="http://hl2.com" target="_blank">HL2</a>
+                Please contact <a href="mailto:sales@hl2.com">sales@hl2.com</a>
+                for details, go to <a href="https://hl2.com">https://hl2.com</a>
             </p>
           </div>
         </div>
       </div>
-    </div>
   </body>
 </html>
